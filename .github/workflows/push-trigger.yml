@@ -10,7 +10,6 @@ on:
       - '!release-branch'
       - release*
       - master
-      - 1.*
       - develop
       - zambia
       - utopia
