@@ -16,6 +16,7 @@ on:
       BASE:
         description: 'base branch for PR'
         required: true
+        
 jobs:
   maven-release-preparation:
     uses: mosip/kattu/.github/workflows/release-changes.yml@master
