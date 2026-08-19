@@ -1,7 +1,7 @@
-<div class="wrapper spacing" *ngIf="!showSpinner">
+<div class="wrapper spacing" *ngIf="showSpinner">
   <mat-spinner></mat-spinner>
 </div>
-<div *ngIf="showSpinner" class="login-display" [dir]="dir" [ngStyle]="{'background-image': 'linear-gradient(to right, rgba(143,215,104,0.5), rgba(69,179,225,0.9)), url(assets/utopia-bg.png)'}">
+<div *ngIf="!showSpinner" class="login-display" [dir]="dir" [ngStyle]="{'background-image': 'linear-gradient(to right, rgba(143,215,104,0.5), rgba(69,179,225,0.9)), url(assets/utopia-bg.png)'}">
   <div class="form_wrapper">
     <div class="card">
       <div class="center-div">
